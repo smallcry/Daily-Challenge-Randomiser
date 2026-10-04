@@ -79,7 +79,6 @@ int main() {
     Task selectedTask = taskPool[randomIndex];
 
     // 9. Output the selected task and its instructions
-    cout << "\n========================================" << endl;
     cout << "   Today's mission:   \n";
     cout << "========================================" << endl;
     cout << "Task Name: " << selectedTask.name << " (" << selectedTask.category << ")" << endl;
